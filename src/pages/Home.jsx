@@ -7,7 +7,11 @@ function Home() {
   return (
       <div className='homeContainer'>
         <div>
-          <img src={profileImage} alt="profile" width="300" className='profile' />
+            <h1>Hi, my name is Shai</h1>
+            <h2>I am a Back-End Developer!</h2>
+            <h3>Specialized in creating projects with Node</h3>
+            <img src={reactLogo} alt="react logo" width="100" className='logo' />
+          {/* <img src={profileImage} alt="profile" width="300" className='profile' /> */}
         </div>
         <div>
             <h1>Hi, my name is Shai</h1>

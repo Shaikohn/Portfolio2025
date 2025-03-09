@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: rgb(100, 211, 255);
-  background: linear-gradient(100deg, rgb(100, 211, 255, 1) 48%, rgba(48,84,255,1) 52%); 
+  background: linear-gradient(100deg, rgb(100, 211, 255, 1) 49%, rgba(48,84,255,1) 50%); 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,11 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -64,4 +60,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
 }
