@@ -1,13 +1,17 @@
 import React from "react";
 import './Navbar.css';
-import { Link } from "react-router-dom";
+import { Link, useLocation} from "react-router-dom";
 
 function Navbar() {
+
+  const location = useLocation();
+  let path = location.pathname;
+
   return (
     <div className="navContainer">
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/contact">CONTACT</Link>
+        <Link to="/" className={path === "/" ? 'active' : ''}>HOME</Link>
+        <Link to="/about" className={path === "/about" ? 'active' : ''}>ABOUT</Link>
+        <Link to="/contact" className={path === "/contact" ? 'active' : ''}>CONTACT</Link>
     </div>
   );
 }

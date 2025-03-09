@@ -5,3 +5,9 @@
     color: white;
     width: 100%;
 }
+
+.profileImage {
+    bottom: 0;
+    position: absolute;
+    width: 300px;
+}
