@@ -36,7 +36,7 @@ function Skills() {
                     <p>(Basic)</p>
                 </div>
                 <div>
-                    <img src={springboot} alt="SpringBoot logo" className='skills' width="75" />
+                    <img src={springboot} alt="SpringBoot logo" className='skills' style={{borderRadius: '20px'}} width="75" />
                     <h3>SpringBoot</h3>
                     <p>(Basic)</p>
                 </div>
@@ -53,7 +53,7 @@ function Skills() {
                     <p>(Basic)</p>
                 </div>
                 <div>
-                    <img src={mysql} alt="MySQL logo" className='skills' width="75" />
+                    <img src={mysql} alt="MySQL logo" className='skills' style={{borderRadius: '20px'}} width="75" />
                     <h3>MySQL</h3>
                     <p>(Basic)</p>
                 </div>
@@ -74,7 +74,7 @@ function Skills() {
                     <p>(Advanced)</p>
                </div>
                <div>
-                    <img src={javascript} alt="JavaScript logo" className='skills' width="75" />
+                    <img src={javascript} alt="JavaScript logo" className='skills' style={{borderRadius: '20px'}} width="75" />
                     <h3>JavaScript</h3>
                     <p>(Advanced)</p>
                </div>
