@@ -11,7 +11,7 @@ function Home() {
             <h1>Hi, my name is Shai</h1>
             <h2>I am a Back-End Developer!</h2>
             <h3>Specialized in creating projects with Node</h3>
-            <img src={nodeLogo} alt="react logo" width="100" className='logo' />
+            <img src={nodeLogo} alt="node logo" width="100" className='logo' />
         </div>
         <img src={profileImage} alt="profile" className='profileImage' />
         <div>

@@ -1,0 +1,17 @@
+.skillsContainer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+}
+
+.skills {
+    margin: 10px;
+    padding-bottom: -5px;
+    padding: 10px;
+}
+
+.skillsGroup {
+    display: flex;
+    justify-content: space-around;
+}

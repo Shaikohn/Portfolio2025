@@ -11,6 +11,8 @@ function Navbar() {
     <div className="navContainer">
         <Link to="/" className={path === "/" ? 'active' : ''}>HOME</Link>
         <Link to="/about" className={path === "/about" ? 'active' : ''}>ABOUT</Link>
+        <Link to="/skills" className={path === "/skills" ? 'active' : ''}>SKILLS</Link>
+        <Link to="/projects" className={path === "/projects" ? 'active' : ''}>PROJECTS</Link>
         <Link to="/contact" className={path === "/contact" ? 'active' : ''}>CONTACT</Link>
     </div>
   );
