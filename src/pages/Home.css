@@ -11,3 +11,10 @@
     position: absolute;
     width: 300px;
 }
+
+.or {
+    background-color: #7595ff;
+    border: solid 5px white;
+    border-radius: 50px;
+    padding: 20px;
+}

@@ -13,6 +13,7 @@ function Home() {
             <h3>Specialized in creating projects with Node</h3>
             <img src={nodeLogo} alt="node logo" width="100" className='logo' />
         </div>
+        <h1 className='or'>OR</h1>
         <img src={profileImage} alt="profile" className='profileImage' />
         <div>
             <h1>Hi, my name is Shai</h1>
