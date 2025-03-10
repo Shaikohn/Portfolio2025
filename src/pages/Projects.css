@@ -1,0 +1,10 @@
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+}
+
+.projectContainer {
+    width: 400px;
+}
