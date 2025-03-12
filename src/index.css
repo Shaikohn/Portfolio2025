@@ -1,4 +1,4 @@
-:root {
+body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -6,23 +6,35 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: rgb(100, 211, 255);
-  background: linear-gradient(100deg, rgb(100, 211, 255, 1) 49%, rgba(48,84,255,1) 50%); 
+  background: linear-gradient(90deg, rgb(100, 211, 255, 1) 49%, rgba(48,84,255,1) 50%); 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  display: flex;
+  place-items: center;
 }
+
+body.about-bg {
+  background: rgba(48,84,255,1);
+}
+
+/* body.skills-bg {
+  background: rgb(100, 211, 255);
+  background: linear-gradient(90deg, rgb(100, 211, 255, 1) 49%, rgba(48,84,255,1) 50%); 
+}
+
+body.projects-bg {
+  background: rgb(100, 211, 255);
+  background: linear-gradient(90deg, rgb(100, 211, 255, 1) 49%, rgba(48,84,255,1) 50%); 
+} */
 
 a {
   font-weight: 500;
   text-decoration: inherit;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
 }
 
 h1 {
